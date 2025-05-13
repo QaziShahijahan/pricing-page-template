@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BOGO Offer</title>
+    <!-- css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- main container -->
+    <div class="container">
+      <div class="section-heading">
+        <span class="line"></span>
+        <h2>YAY! It’s BOGO</h2>
+        <span class="line"></span>
+      </div>
+      <!-- pricing cards -->
+      <form id="bogo-form">
+        <!-- card 1 start...... unit 1 -->
+        <div class="option" data-units="1">
+          <label>
+            <input type="radio" name="unit" />
+            <span class="unit-title"
+              >1 Unit <span class="badge">10% Off</span></span
+            >
+            <span class="price"
+              >$10.00 USD <span class="original-price">$24.00 USD</span></span
+            >
+            <div class="desc">Standard Price</div>
+          </label>
+          <!--ist dropdown for unit 1 -->
+          <div class="variant">
+            <div class="variant-row">
+              <label>#1</label>
+              <select>
+                <option>Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Color</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Blue</option>
+              </select>
+            </div>
+            <!--2nd dropdown for unit 1 -->
+            <div class="variant-row">
+              <label>#2</label>
+              <select>
+                <option>Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Color</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 start...... unit 2 -->
+        <div class="option" data-units="2">
+          <label>
+            <input type="radio" name="unit" checked />
+            <span class="unit-title"
+              >2 Unit <span class="badge">20% Off</span></span
+            >
+            <span class="price"
+              >$18.00 USD <span class="original-price">$24.00 USD</span></span
+            >
+            <div class="most-popular">MOST POPULAR</div>
+          </label>
+          <!--ist dropdown for unit 2 -->
+          <div class="variant">
+            <div class="dropdown-labels">
+              <label class="dropdown-label">Size</label>
+              <label class="dropdown-label">Color</label>
+            </div>
+            <div class="variant-row">
+              <label>#1</label>
+              <select>
+                <option>Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Color</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Blue</option>
+              </select>
+            </div>
+            <!--2nd dropdown for unit 2 -->
+            <div class="variant-row">
+              <label>#2</label>
+              <select>
+                <option>Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Color</option>
+                <option>Colour</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 start...... unit 3 -->
+        <div class="option" data-units="3">
+          <label>
+            <input type="radio" name="unit" />
+            <span class="unit-title"
+              >3 Unit <span class="badge">30% Off</span></span
+            >
+            <span class="price"
+              >$24.00 USD <span class="original-price">$24.00 USD</span></span
+            >
+          </label>
+          <div class="variant">
+            <div class="variant-row">
+              <!--ist dropdown for unit 3 -->
+              <label>#1</label>
+              <select>
+                <option>Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Color</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Blue</option>
+              </select>
+            </div>
+            <!--2nd dropdown for unit 3 -->
+            <div class="variant-row">
+              <label>#2</label>
+              <select>
+                <option>Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Color</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+          <div class="free-delivery">Free Delivery</div>
+          <div class="total">
+            Total : <span id="total-price">$18.00 USD</span>
+          </div>
+        </div>
+
+        <button type="submit" class="add-to-cart">+ Add to Cart</button>
+      </form>
+
+      <div class="powered">@ Powered by Pumper</div>
+    </div>
+
+    <!-- javascript file link -->
+    <script src="script.js"></script>
+  </body>
+</html>
